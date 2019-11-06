@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="#ff1ba1ee"
+    android:paddingBottom="0dp"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/cityText"
+        android:textColor="#fff"
+        android:text="22030, Fairfax"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id = "@+id/thumbnailIcon"
+        android:layout_below="@+id/cityText"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:background="#fff"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+
+    <TextView
+        android:id="@+id/tempText"
+        android:text="6 Nov"
+        android:textStyle="normal"
+        android:textColor="#fff"
+        android:layout_below="@+id/cityText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="42dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/windText"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text = "Wind : 5 mph"
+        android:layout_below="@+id/thumbnailIcon"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/cloudText"
+        android:text = "Cloud : 0 % (Sunny Day) "
+        android:layout_below="@+id/windText"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/pressureText"
+        android:text = "Pressure : 30.42 in"
+        android:layout_below="@+id/cloudText"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/humidText"
+        android:text = "Humidity : 32 %"
+        android:layout_below="@+id/pressureText"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/riseText"
+        android:text = "Sunrise : 6:42 AM"
+        android:layout_below="@+id/humidText"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/setText"
+        android:text = "Sunset : 5:05 PM"
+        android:layout_below="@+id/riseText"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/updateText"
+        android:text="Last Updated : 5:30PM, November 6, 2019"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/setText"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/clothesSuggestion"
+        android:layout_centerHorizontal="true"
+        android:text = " What to wear today? \n Midi Skirt + Sweater. Collage Vintage. \n
+Trench + Wide-Leg Pants. \n
+Plaid Pants + Sleek Button-Down. \n
+Summery Dress + Overcoat. \n
+Light Jackets + Silk Scarves. \n
+Short Skirt + Tall Socks. \n
+High-Slit Skirt + Over-the-Knee Boots.\n"
+        android:layout_below="@+id/updateText"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>
